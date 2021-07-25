@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"prettier.arrowParens": "avoid",
+		"emmet.includeLanguages": {
+			"javascript": "javascriptreact"
+		},
+		"emmet.showSuggestionsAsSnippets": true,
+		"editor.formatOnSave": true,
+		"files.autoSaveDelay": 0,
+		
+	}
+}
