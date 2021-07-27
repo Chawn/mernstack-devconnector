@@ -14,7 +14,7 @@ const User = require('../../models/User');
 router.post(
 	'/',
 	[
-		check('name', 'Name is required').not().isEmpty(),
+		check('name', 'คุณยังไม่ได้ใส่ชื่อ').not().isEmpty(),
 		check('email', 'คุณยังไม่ได้ใส่อีเมล').isEmail(),
 		check('password', 'รหัสผ่านต้องมีอย่างน้อย 6 ตัวอักษร').isLength({
 			min: 6,
